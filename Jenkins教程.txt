@@ -1,0 +1,12 @@
+jenkins安装：（官网：https://jenkins.io）
+1、下载
+wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+2、运行
+java -jar jenkins.war --httpPort=8080
+3、访问
+http://[ip]:8080
+4、配置
+输入初始密码，设置新的管理员账号和密码，然后一顿Next，等待安装完成
+5、安装coding插件
+6、创建项目
+7、设置WebHook
